@@ -33,3 +33,54 @@ nom.append("numeroxd")
 print(nom)
 nom.append({"numero":1})
 print(nom)
+
+
+#calcular el factorial de cualquier numero [n!]
+
+
+
+def factorial(n):
+    if n==1:
+        return 1
+    return n*factorial(n-1)
+    
+
+num=factorial(3)
+print(num) 
+n1=2
+n2=4
+nombre="Brayan"
+
+def saludar(n1,n2):
+    n1+=1
+    rpta= n2+n1
+    print(rpta)
+saludar(n1,n2)
+
+print(n1)
+
+
+class manga:
+
+    def __init__(self,nombre,genero,_capitulos,tipo):
+        self.nombre=nombre
+        self.genero=genero
+        self.capitulos=_capitulos
+        self.tipo=tipo
+
+    def saludar(self):
+        print("Holap")
+
+    def getCapitulos(self):
+        return self.capitulos
+
+
+serie1=manga("Player","Shounen",130,"Manhwa")
+serie2=manga("Mercenario","Shounen",114,"Manhwa")
+
+print(serie1.getCapitulos())
+
+
+
+
+
