@@ -75,10 +75,10 @@ class manga:
         return self.capitulos
 
 
-serie1=manga("Player","Shounen",130,"Manhwa")
+serie1=manga("Player","Shounen",0.0099999999,"Manhwa")
 serie2=manga("Mercenario","Shounen",114,"Manhwa")
 
-print(serie1.getCapitulos())
+print("{:.2f}".format(serie1.capitulos))
 
 
 
