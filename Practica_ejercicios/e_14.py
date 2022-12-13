@@ -1,0 +1,1 @@
+##Lo que te piden está literalmente ne el ejercicio 5, tanto la resolucion en bucle como usando conjuntos.
